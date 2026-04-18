@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.nav-principal {
+    display: flex;             
+    list-style: none;         
+    justify-content: center;   
+    gap: 30px;                 
+    padding: 20px;
+    background-color: #ffffff; 
+    font-family: 'Nunito', sans-serif; 
+}
+
+
+.nav-principal a {
+    text-decoration: none;     
+    color: #2e7d32;            
+    font-size: 1.1rem;
+    transition: 0.4s;         
+}
+
+.Titulo {
+    background-color: white;
+    color: #2e7d32; 
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+    text-align: center; 
+    padding: 50px;
+    width: 100%;      
+    margin: 0 auto;    
+    display: block;    
+}
