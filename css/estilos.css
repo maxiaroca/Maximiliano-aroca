@@ -70,7 +70,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    min-height: 100vh; /* Se ajusta al contenido o al alto de pantalla */
+    min-height: 100vh; 
     width: 100%;
     position: relative;
 }
@@ -108,3 +108,105 @@
     text-transform: uppercase;
 }
 
+.section-historia {
+    background-color: #f8f9fa;
+}
+
+.titulo-verde {
+    color: #2d5a27;
+}
+
+.linea-decorativa {
+    width: 80px;
+    height: 4px;
+    background-color: #a5d6a7;
+    margin: 0 auto;
+}
+
+/* Tarjetas de Misión y Valores */
+.card-personalizada {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.card-personalizada h3 {
+    color: #2d5a27;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.mision-texto {
+    font-style: italic;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+.valor-item h5 {
+    color: #4caf50;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.img-historia {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.img-historia:hover {
+    transform: scale(1.02);
+}
+
+
+.caja-contacto {
+    background: #1a1a1a;
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.dato-destacado {
+    color: #a5d6a7;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.horario-atencion {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    font-size: 0.85rem;
+    color: #bbb;
+}
+
+/* Mapa */
+.contenedor-mapa {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+.mapa-frame {
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+
+.btn-success-personalizado {
+    background-color: #2d5a27;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.btn-success-personalizado:hover {
+    background-color: #4caf50;
+    color: white;
+}
