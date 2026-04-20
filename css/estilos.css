@@ -247,4 +247,43 @@
 .card-testimonio .card-text {
     font-size: 0.95rem;
     line-height: 1.6;
+} 
+
+#contacto {
+    background-color: #f1f8e9;
+}
+
+.btn-verde-contacto {
+    background-color: #2d5a27;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-verde-contacto:hover {
+    background-color: #4caf50;
+    color: white;
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+}
+
+.form-control:focus {
+    border-color: #a5d6a7;
+    box-shadow: 0 0 0 0.2rem rgba(165, 214, 167, 0.25);
+}
+
+.redes-iconos a {
+    transition: color 0.3s;
+}
+
+.redes-iconos a:hover {
+    color: #a5d6a7 !important;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .fab {
+    margin-top: 10px;
 }
