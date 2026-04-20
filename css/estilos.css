@@ -210,3 +210,41 @@
     background-color: #4caf50;
     color: white;
 }
+
+
+#sucursal {
+    background: linear-gradient(to bottom, #ffffff, #f1f8e9);
+}
+
+.card-testimonio {
+    transition: all 0.3s ease;
+    border-radius: 20px !important;
+}
+
+.card-testimonio:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+    background-color: #f1f8e9;
+}
+
+.avatar-cliente {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 3px solid #a5d6a7;
+}
+
+.text-italic {
+    font-style: italic;
+    color: #666;
+}
+
+.rounded-lg {
+    border-radius: 1.5rem !important;
+}
+
+
+.card-testimonio .card-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
